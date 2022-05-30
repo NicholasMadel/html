@@ -1,0 +1,30 @@
+html{
+    background-color: rgb(255, 255, 255);
+    font-family: Caviar Dreams
+}
+body{
+    width: 400px;
+    background-color: #ffffff;
+    margin: auto;
+    border: 15px solid #000000;
+    border-radius: 10px;
+}
+img{
+    width: 400px;
+}
+header{
+    text-align: center;
+    text-shadow: 3px 4px 4px #8C6A56;
+}
+h3{
+    padding-left: 15px;
+    height: 6px;
+}
+p{
+  text-align: justify;
+  padding-left:  15px;  
+  padding-right:  15px;  
+}
+.capital{
+    font-size: 12px;
+}

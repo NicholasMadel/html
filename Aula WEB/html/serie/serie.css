@@ -1,0 +1,53 @@
+html{
+    background-color: #00510B;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    width: 400px;
+    background-color: #E9CB00;
+    margin: auto;
+    border: 8px solid black;
+}
+
+#Logo{
+    width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+img{
+    width: 400px;
+}
+
+header{
+    text-align: center;
+   text-shadow: 3px 2px 2px #028720;
+}
+
+header:hover{
+font-size: large;
+}
+
+#Resumo{
+    text-align: justify;
+    margin: auto;
+    font-size: 13px;
+    padding: 22px;
+}
+strong{
+    color: #028720;
+}
+
+#ListaPersonagens{
+    padding-left: 23px;
+    font-size: smaller;
+    width: 400px;
+}
+h2{
+    text-shadow: 2px 1px 1px ;
+}
+
+li{
+    font-size: larger;
+}
