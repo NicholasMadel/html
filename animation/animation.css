@@ -1,0 +1,178 @@
+body {
+    height: 3000px;
+}
+
+h1 {
+    width: 120px;
+    font-family: sans-serif;
+    transition: transform 0.3s;
+}
+
+h1:hover {
+    color: rgb(106, 106, 199);
+    text-shadow: 0px 0px 10px rgb(0, 255, 247);
+    transform: translateX(30px) scale(1.5);
+    transition: 0.6s;
+}
+
+#btn1 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 8, 126);
+    border: 10px;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: larger;
+    transition: transform 0.3s;
+}
+
+#btn1:hover,#btn1:focus {
+    transform: translateX(10px) scale(1.2);
+    background-color: brown;
+    transition: 0.6s;
+}
+
+#LocalQ {
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+.quadrado {
+    background-color: purple;
+    width: 100px;
+    height: 100px;
+    animation: go-back 0.9s alternate ease-out forwards;
+
+}
+
+@keyframes go-back {
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(200px);
+
+        border-radius: 50px;
+    }
+}
+
+#LocalB{
+    display: flex;
+    align-items: center;
+    height: 150px;
+    height: 150px;
+}
+
+.ball{
+    width: 70px;
+    height: 70px;
+    background-color: green;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px black;
+    animation: bounce 1s infinite alternate, fade-in 0.9s infinite alternate;
+}
+@keyframes bounce{
+    from{transform: (0px);}
+    to{transform: translateY(-100px);}
+
+}
+@keyframes fade-in{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+p{
+    font-size: 30px;
+    font-family: monospace;
+    animation: slide-in 20s;
+}
+@keyframes slide-in {
+    from{
+        opacity: 0;
+        margin-left: 50%;
+    }to{
+        opacity: 1;
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+.colorChange{
+    width: 70px;
+    height: 70px;
+    background-color: red;
+    animation: move-star 3s infinite alternate; 
+    position: relative;
+}
+
+#AreaSquare{
+display: flex;
+width: 570px;
+height: 570px;
+background-color: rgb(1, 1, 54);
+border: 8px solid orange;
+
+}
+
+@keyframes moveSquare{
+    0%{left: 0px; top: 0px;}
+    25%{left: 500px; top:0px ;}
+    50%{left: 500px; top:500px}
+    75%{left: 0px; top: 500px;}
+    100%{left: 0px; top: 0px;}
+}
+
+@keyframes moveTri{
+    0%{left: 0px; top: 500px;}
+    33%{left: 250px; top: 0px;}
+    66%{left: 500px; top: 500px;}
+    100%{left: 0px; top: 500px;}
+}
+@keyframes move-star {
+    0%{left: 0px; top: 250px;}
+    20%{left: 500px; top: 250px;}
+    40%{left: 0px; top: 500px;}
+    60%{left: 250px; top: 0px;}
+    80%{left: 500px; top: 500px;}
+    100%{left: 0px; top: 250px;}
+}
+
+.config{
+    width: 130px;
+    height: 65px;
+    background-color: crimson;
+    border: 3px solid black;
+    color: white;
+    text-align: center;
+    font-size: larger;
+    font-family: monospace;
+    animation: move-to-right 1s infinite alternate;
+}
+
+#div1{
+    animation-timing-function: ease;
+}
+#div3{
+    animation-timing-function: ease-in;
+}
+#div4{
+    animation-timing-function: ease-out;
+}
+#div4{
+    animation-timing-function: linear;
+}
+#div5{
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes move-to-right{
+    from{
+        transform: translateX(0px);
+    }to{
+        transform:translateX(440px)
+    }
+}
+
+
+
+
