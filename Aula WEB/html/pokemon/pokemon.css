@@ -1,0 +1,26 @@
+body{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 1000px;
+}
+header{
+    text-align: center;
+}
+.config{
+    margin: auto;
+    border: 5px solid black;
+    width: 800px;
+    margin-bottom: 10px;
+    padding: 13px;
+   text-align: center;
+}
+#general{
+ margin: auto;
+}
+img{
+    margin: auto;
+}
+#nome{
+    text-align: center;
+}
