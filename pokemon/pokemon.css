@@ -1,0 +1,158 @@
+body{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 1000px;
+    
+}
+html{
+    background-image: url(http://31.media.tumblr.com/tumblr_me4qci2MsK1rhg4x8o1_500.gif);
+}
+header{
+    text-align: center;
+    margin: auto;
+}
+header:hover{
+    -webkit-animation: rotate-scale-up-diag-2 0.7s linear both;
+    animation: rotate-scale-up-diag-2 0.7s linear both;
+}
+.config{
+    margin: auto;
+    border: 8px solid black;
+    width: 800px;
+    margin-bottom: 10px;
+    padding: 13px;
+   text-align: center;
+    background-color: #C6D93B;
+    transition: 1s;
+  
+}
+.config:HOVER{
+    -webkit-animation: shadow-pop-tr 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+    animation: shadow-pop-tr 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both backwards;
+}
+#general{
+ margin: auto;
+}
+img{
+    margin: auto;
+}
+
+.nome{
+    text-align: center;
+    font-family: Pokemon Classic;
+}
+.tipo{
+    font-family: Pokemon Classic;
+}
+.resumo{
+    font-family: Pokemon Classic;
+}
+@-webkit-keyframes shadow-pop-tr {
+    0% {
+      -webkit-box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+              box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+      -webkit-transform: translateX(0) translateY(0);
+              transform: translateX(0) translateY(0);
+    }
+    100% {
+      -webkit-box-shadow: 1px -1px #3e3e3e, 2px -2px #3e3e3e, 3px -3px #3e3e3e, 4px -4px #3e3e3e, 5px -5px #3e3e3e, 6px -6px #3e3e3e, 7px -7px #3e3e3e, 8px -8px #3e3e3e;
+              box-shadow: 1px -1px #3e3e3e, 2px -2px #3e3e3e, 3px -3px #3e3e3e, 4px -4px #3e3e3e, 5px -5px #3e3e3e, 6px -6px #3e3e3e, 7px -7px #3e3e3e, 8px -8px #3e3e3e;
+      -webkit-transform: translateX(-8px) translateY(8px);
+              transform: translateX(-8px) translateY(8px);
+    }
+  }
+  @keyframes shadow-pop-tr {
+    0% {
+      -webkit-box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+              box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+      -webkit-transform: translateX(0) translateY(0);
+              transform: translateX(0) translateY(0);
+    }
+    100% {
+      -webkit-box-shadow: 1px -1px #3e3e3e, 2px -2px #3e3e3e, 3px -3px #3e3e3e, 4px -4px #3e3e3e, 5px -5px #3e3e3e, 6px -6px #3e3e3e, 7px -7px #3e3e3e, 8px -8px #3e3e3e;
+              box-shadow: 1px -1px #3e3e3e, 2px -2px #3e3e3e, 3px -3px #3e3e3e, 4px -4px #3e3e3e, 5px -5px #3e3e3e, 6px -6px #3e3e3e, 7px -7px #3e3e3e, 8px -8px #3e3e3e;
+      -webkit-transform: translateX(-8px) translateY(8px);
+              transform: translateX(-8px) translateY(8px);
+    }
+}
+@-webkit-keyframes rotate-scale-up-diag-2 {
+    0% {
+      -webkit-transform: scale(1) rotate3d(-1, 1, 0, 0deg);
+              transform: scale(1) rotate3d(-1, 1, 0, 0deg);
+    }
+    50% {
+      -webkit-transform: scale(2) rotate3d(-1, 1, 0, 180deg);
+              transform: scale(2) rotate3d(-1, 1, 0, 180deg);
+    }
+    100% {
+      -webkit-transform: scale(1) rotate3d(-1, 1, 0, 360deg);
+              transform: scale(1) rotate3d(-1, 1, 0, 360deg);
+    }
+  }
+  @keyframes rotate-scale-up-diag-2 {
+    0% {
+      -webkit-transform: scale(1) rotate3d(-1, 1, 0, 0deg);
+              transform: scale(1) rotate3d(-1, 1, 0, 0deg);
+    }
+    50% {
+      -webkit-transform: scale(2) rotate3d(-1, 1, 0, 180deg);
+              transform: scale(2) rotate3d(-1, 1, 0, 180deg);
+    }
+    100% {
+      -webkit-transform: scale(1) rotate3d(-1, 1, 0, 360deg);
+              transform: scale(1) rotate3d(-1, 1, 0, 360deg);
+    }
+  }
+  @-webkit-keyframes flip-in-ver-right {
+    0% {
+      -webkit-transform: rotateY(-80deg);
+              transform: rotateY(-80deg);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: rotateY(0);
+              transform: rotateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes flip-in-ver-right {
+    0% {
+      -webkit-transform: rotateY(-80deg);
+              transform: rotateY(-80deg);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: rotateY(0);
+              transform: rotateY(0);
+      opacity: 1;
+    }
+  }
+
+  .flip-container:hover .flipper{
+	transform: rotateY(180deg);
+	/* se quiser uma animação na vertical,
+	troque por rotateX(180deg)
+	*/
+}
+.flipper{
+	width: 100%;
+	height: 500px;
+	transition: transform 0.8s;
+	transform-style: preserve-3d;
+}
+
+.front, .back{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.back{
+	transform: rotateY(180deg);
+}
+.front, .back{
+   position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
