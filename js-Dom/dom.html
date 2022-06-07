@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1 onclick="this.innerHTML= 'it worked' " id="title">Cálculo</h1>
+
+    1ºn <input id="num1" type="">
+    <br>
+    2ºn <input id="num2" type="">
+    <br>
+    <h2>Selecione 1</h2>
+    <button onclick="sum()" class="sum">Somar</button>
+    <button onclick="subtrair()" class="sub">Subtrair</button>
+    
+
+    <h3 id="result">Resultado</h3>
+    
+    <img id="img1" src="img/Chuva1.webp" alt="" width="300px">
+    <button onclick="changeImg()">Trocar Imagem</button>
+
+</body>
+
+<script>
+    function sum(){
+        let n1  =  parseInt(document.getElementById ("num1").value)
+        let n2 = parseInt(document.getElementById ("num2").value)
+        let resultado = n1+n2
+        document.getElementById("result").innerHTML = "Resultado = "+ resultado
+    }
+    function subtrair(){
+        let n1  =  parseInt(document.getElementById ("num1").value)
+        let n2 = parseInt(document.getElementById ("num2").value)
+        let resultado = n1-n2
+        document.getElementById("result").innerHTML = "Resultado = "+ resultado
+    }
+
+    let i = 0
+    function changeImg(){
+        if(i%2 == 0){
+            document.getElementById("img1").src = "img/Sol1.jpg"
+        }else{
+            document.getElementById("img1").src = "img/Chuva1.webp"
+        }
+        i++
+    }
+</script>
+
+</html>
