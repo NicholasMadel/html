@@ -9,13 +9,14 @@
 <body>
     
  <h1>Fórmula de Baskhara</h1>
-     a <input type="text" id="a">
+     a <input type="number" id="a">
      <br>
-     b <input type="text" id="b">
+     b <input type="number" id="b">
      <br>
-     c <input type="text" id="c">
+     c <input type="number" id="c">
      <br>
      <button onclick="calculate()">Calcular</button>
+     <h2 id="delta">Delta:</h2>
      <h2 id="x1">x' = </h2>
      <h2 id="x2">x'' = </h2>
 
@@ -23,23 +24,23 @@
 </body>
 <script>
     
-    let a = Number (document.getElementById("a").value)
-    let b = Number (document.getElementById("b").value)
-    let c = Number (document.getElementById("c").value)
-    let delta =0 
+    
 
     function calculate() {
 
-        let a = Number (document.getElementById("a").value)
-        let b = Number (document.getElementById("b").value)
-        let c = Number (document.getElementById("c").value)
-        let delta = 0
+        let a = document.getElementById("a").value
+        let b =  document.getElementById("b").value
+        let c =  document.getElementById("c").value
+    
+        let delta =0 
         
-        let delta = Math.pow(b,2) - 4 * a *c
+        delta = Math.pow(b,2) - 4 * a *c
 
-        let x1
+        document.getElementById("delta").innerHTML = "Delta: "+ delta
 
-        let x2
+        let x1 
+
+        let x2 
    
     }
  
