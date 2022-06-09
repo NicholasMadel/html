@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Quadrado</h1>
+
+    <input id="lado" type="number">
+    <button id="btn" onclick="area(), changeColor()" >Calcular área</button>
+    <h2 id="result">Resultado -> </h2>
+    <button onclick="aumentar()">+</button>
+    <button onclick="diminuir()">-</button>
+    <div id="square"></div>
+
+    <button onclick="circle()">Circulo</button>
+    <button onclick="centralize()">Centralizar</button>
+
+</body>
+
+<script>
+
+   
+    let lado
+    let areaF
+
+    function area(){
+    lado = document.getElementById("lado").value
+    areaF = lado**2
+
+    document.getElementById("result").innerHTML = "Resultado -> " + areaF + "m²"
+    document.getElementById("square").style.backgroundColor = "black"
+    document.getElementById("square").style.width = lado + "px"
+    document.getElementById("square").style.height = lado + "px"
+    document.getElementById("square").style.transition = "0.6s"
+
+}
+
+
+
+function aumentar(){
+    
+    Number(lado)
+    lado = Number(lado)+Number(10)
+    
+    document.getElementById("square").style.width = lado + "px"
+    document.getElementById("square").style.height = lado + "px"
+    document.getElementById("lado").value = lado
+    
+}
+function diminuir(){
+    Number(lado)
+    lado = Number(lado)-Number(10)
+    document.getElementById("square").style.width = lado + "px"
+    document.getElementById("square").style.height = lado + "px"
+}
+
+ function changeColor(){
+     let btn = document.getElementById("btn")
+     btn.style
+ }
+   
+ function circle(){
+     let circle
+     circle = document.getElementById("circle")
+ }
+    
+
+</script>
+
+
+
+</html>
