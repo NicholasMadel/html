@@ -23,6 +23,64 @@
 // animal.raca = "PitBull"
 // animal.especie = "Coelho"
 
+//Operadors JS
+
+// //+ , - , * /,**
+// let salario = 100;
+// //Aritméticos
+// console.log(salario+salario)
+// console.log(salario-salario)
+// console.log(salario*salario)
+// console.log(salario/salario)
+// console.log(3**4)//potenciação -> eleva o primeiro número ao s
+
+// //Atribuição
+// // =, +=, -=,*=,/=
+// let valor =  100 //atribui 
+// console.log(" = "+valor)
+
+// valor+=10//Permanece o 100 e acrescenta 10
+// console.log(" += "+(valor))//110
+
+// valor =  100//reseta o 100
+// valor -= 10//Permanece o 100 e diminui 10
+// console.log(" -= "+valor)//90
+
+// valor =  100//reseta o 100
+// valor *= 2//Permanece o 100 e multiplica por 2
+// console.log(" *= "+valor)//200
+
+// valor =  100//reseta o 100
+// valor /= 4 //Permanece o 100 e divide por 4
+// console.log(" /= "+valor)//25
+// let n0 = 2+ Number('2')
+
+// console.log(n0)
+// //Lógicos
+
+// // == -> compara somente o valor, logo numero 1 e caracter '1' são iguais 
+// // === -> compara TUDO, logo numero 1 e caracter '1' são diferentes
+
+// console.log("1==1      -> "+(1==1))
+// console.log("1 == '1'  -> "+(1=='1'))
+// console.log("1 === '1' -> "+(1 === '1'))
+// console.log("1 === 1   -> "+(1===1))
+
+// //E -> && 
+// //Returna TRUE se as duas condições forem TRUE
+// console.log("*******")
+// console.log("TRUE && TRUE = "+(true && true))
+// console.log("TRUE && FALSE = "+(true && false))
+// console.log("FALSE && FALSE = "+(false && false))
+
+// //OU -> ||
+// //Retorna TRUE quando (pelo menos) uma das duas condições for TRUE
+// console.log("*******")
+// console.log("TRUE || TRUE = "+(true || true))
+// console.log("TRUE || FALSE = "+(true || false))
+// console.log("FALSE || TRUE = "+(false || true))
+// console.log("FALSE || FALSE = "+(false || false))
+
 // let numero = 8
 
 // let parOuImpar = numero %2 == 0 ? 'par' : 'impar' 
