@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="mouseEvent.css">
+
+</head>
+<body>
+
+    <div class="square"></div>
+    
+    <div class="square2"></div>
+
+    <script>
+
+        var quadrado = document.querySelector(".square")
+
+        quadrado.addEventListener("mousedown", () => {
+            quadrado.classList.toggle("circle")
+        })
+        quadrado.addEventListener("mouseup", () => {
+            quadrado.style.backgroundColor = "black"
+        })
+
+        var quadrado2 = document.querySelector(".square2")
+
+        quadrado2.addEventListener("mousedown", () => {
+            quadrado2.classList.toggle("quadrado2")
+        })
+        quadrado2.addEventListener("mouseup", () => {
+            quadrado2.style.backgroundColor = "brown"
+        })
+
+        quadrado2.addEventListener("mouseenter", () => {
+            quadrado2.style.backgroundColor = "blue"
+        })
+
+        quadrado2.addEventListener("mouseleave", () => {
+            quadrado2.style.backgroundColor = "green"
+        })
+
+        quadrado2.addEventListener("mousewheel", () => {
+            quadrado2.style.backgroundColor = "yellow"
+        })
+
+        quadrado2.addEventListener("mousemove", () => {
+            quadrado2.style.backgroundColor = "orange"
+        })
+
+
+
+
+        
+
+    </script>
+    
+</body>
+</html>

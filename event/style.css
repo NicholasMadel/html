@@ -1,0 +1,29 @@
+html{
+    background: rgb(36, 36, 31);
+}
+
+.btn{
+    border: none;
+    background: rgb(51,84,195);
+    color: white;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+.change-color{
+    background: rgb(196, 33, 196);
+
+}
+
+.square{
+    margin-top: 20px;
+    background: rgb(86, 226, 5);
+    width: 100px;
+    height: 100px;
+    transition: 1s;
+}
+
+.circle{
+    border-radius: 50%;
+    transition: 1s;
+}

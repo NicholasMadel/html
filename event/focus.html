@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+
+    <div class="numeros-bonitos">
+        <h1>Número Bonitos</h1>
+    </div>
+    <input id="input1" type="text">
+    <br>
+    <br>
+    <input id="input2" type="text">
+    <br>
+    <br>
+    <button id="btn-98">98</button>
+    <button id="btn-37">37</button>
+
+    <script>
+        var input1 = document.querySelector("#input1")
+
+        var input2 = document.querySelector("#input2")
+
+        var btn98 = document.querySelector("#btn-98")
+
+        var btn37 = document.querySelector ("#btn-37")
+
+        
+
+        input1.addEventListener("focus", ()=> {
+            console.log("Ganhou o foco")
+        })
+        
+        //Calculadora com 2 input
+        btn98.addEventListener("click", () => {
+            if(input1.focus == "true"){
+                input1.value += 98
+            } else if(input2.focus == "true"){
+                input2.value += 98
+            }
+    })
+            btn37.addEventListener("click", () => {input1.value += 37})
+
+            btnn.addEventListener("click", ()=> {
+                console.log(input1.value)
+            })
+
+            //calculadora com 1 input
+
+            btn1.addEventListener("click", () => {
+                input.value = 1
+            })
+
+            btnMais.addEventListener("click", () => {
+                input.value = 0
+            })
+
+        // input1.addEventListener("blur", () => {
+        //     console.log("Perdeu o foco")
+        // })
+      
+        
+
+
+
+    </script>
+    
+</body>
+</html>

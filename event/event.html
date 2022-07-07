@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Listenner</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <button class="btn">Clique aqui e.e</button>
+    <div class="square"></div>
+
+    <script>
+
+        var botao = document.querySelector(".btn")
+
+        var quadrado = document.querySelector(".square")
+
+        // botao.addEventListener("click", alerta)
+
+        // function alerta (){
+        //     alert("Você ativou o evento")
+        // }
+
+        botao.addEventListener("click", ()=> {
+            botao.classList.toggle("change-Color")
+        })
+
+        quadrado.addEventListener("click", ()=> {
+            quadrado.classList.toggle("circle")
+        })
+
+    </script>
+
+    
+</body>
+</html>
