@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qual o role?</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div class="main-menu">
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Pubs</a></li>
+            <li><a href="#">Baladas</a></li>
+            <li><a href="#">Restaurantes</a></li>
+            <li><a href="#">Karaokês</a></li>
+            <input type="search" id="search" placeholder="Qual será a de hoje?">
+            <input type="button" value="pesquisar">
+        </ul>
+    </div>
+
+    <div class="menu-slide">
+        <div class="slide" id="balada">
+            <h2>Baladas</h2>
+            <img src="img/balada.jpeg" alt="balada" >
+        </div>
+
+        <div class="slide" id="karaoke">
+            <h2>Karaokês</h2>
+            <img src="img/karaoke.webp" alt="karaoke" >
+        </div>
+
+        <div class="slide" id="pubs">
+            <h2>Pubs</h2>
+            <img src="img/PUB.jpg" alt="pub" >
+        </div>
+
+        <div class="slide" id="restaurantes">
+            <h2>Restaurantes</h2>
+            <img src="img/restaurante.jpg" alt="restaurante" >
+        </div>
+    </div>
+</body>
+</html>
