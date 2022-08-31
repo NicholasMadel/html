@@ -46,3 +46,84 @@
     </div>
 </body>
 </html>
+
+***********************************************************CSS
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@0;1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    margin: auto;   
+}
+
+.main-menu{
+    padding: 30%;
+    height: 30px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.76);
+}
+
+.main-menu ul li a{
+    text-decoration-line: none;
+    color: rgba(0, 0, 0, 0.76);
+}
+
+.main-menu ul li a:hover{
+    text-decoration-line: none;
+    color: rgb(47, 216, 179);
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    margin: 10px;
+    display: inline;
+}
+
+.main-menu > ul #search{
+    border-radius: 7px 3px 8px;
+}
+
+.menu-slide{
+    margin-top: 200px;
+    display: flex;
+    padding: 20px;
+}
+
+.menu-slide > .slide{
+    padding: 10px;
+    justify-content: center;
+}
+
+img{
+    width: 300px;   
+    margin: auto;
+    
+}
+
+.menu-slide  #balada{
+    background-color: rgba(0, 0, 0, 0.466);
+}
+
+.menu-slide  #karaoke{
+    background-color: rgba(0, 0, 0, 0.466);
+}
+
+.menu-slide  #pubs{
+    background-color: rgba(0, 0, 0, 0.466);
+}
+
+.menu-slide  #restaurantes{
+    background-color: rgba(0, 0, 0, 0.466);
+}
